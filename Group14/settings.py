@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-g#q+(ny4*qd_d%2w$kyy(hnjiip@%!06y2pny)&**poj$k#n2s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'covidforecast-gcit.herokuapp.com'
+]
 
 
 # Application definition
